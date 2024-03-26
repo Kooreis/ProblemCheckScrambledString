@@ -1,11 +1,11 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the first string:");
-        String str1 = scanner.nextLine();
-        System.out.println("Enter the second string:");
-        String str2 = scanner.nextLine();
+        // ... existing code ...
+
+        if (isScramble(str1, str2)) {
+            System.out.println("The second string is a scrambled version of the first string.");
+        } else {
+            System.out.println("The second string is not a scrambled version of the first string.");
+        }
     }
 }
